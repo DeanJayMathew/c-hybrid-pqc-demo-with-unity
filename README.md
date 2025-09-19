@@ -52,3 +52,52 @@ tests/test_pq.c:29:test_hybrid_shared_secret:PASS
 -----------------------
 3 Tests 0 Failures 0 Ignored 
 OK
+
+
+**Demo Program**
+
+Run the hybrid handshake demo:
+
+gcc -Iinclude -Wall -std=c11 demo/hybrid_handshake.c src/pq.c -o demo/hybrid_handshake
+./demo/hybrid_handshake
+
+
+Expected output (numbers will vary):
+
+=== Hybrid Handshake Demo ===
+
+Classical key: 42
+PQC public key: 873
+PQC private key: 129
+Hybrid shared secret (classical + PQC): 915
+Encrypting message 'HELLO PQC' with PQC key: 5970
+
+Demo complete.
+
+
+
+Learning Outcomes
+
+This project will help you understand how liboqs is structured using standard C library design in the context of terminating post-quantum handshakes:
+
+- Library creation
+
+- Header/source separation
+
+- Unit testing with Unity
+
+- Simulation of cryptographic functions
+
+- Memory Leak Test with Valgrind
+
+
+References
+
+- Unity Unit Testing Framework
+
+- Inspired by Post-Quantum Cryptography (PQC) concepts
+
+
+License
+
+MIT License
