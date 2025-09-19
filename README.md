@@ -4,6 +4,7 @@
 A professional C library demonstrating **hybrid classical + post-quantum cryptography (PQC)**, complete with **modular library structure, unit tests, and a working demo program**. This project 
 is designed to showcase clean **C project organization**, **unit testing with Unity**, and a simple **PQ crypto use case**.
 
+--- 
 
 ## Features
 
