@@ -26,7 +26,7 @@ is designed to showcase clean **C project organization**, **unit testing with Un
 <img width="343" height="237" alt="Screenshot 2025-09-20 at 00 31 34" src="https://github.com/user-attachments/assets/c34ed64d-a15c-481a-b507-1764f3197f79" />
 
 
-**Key takeaways for developers and recruiters:**
+**Key takeaways:**
 
 1. **Library structure in C** — separates interface (`.h`) and implementation (`.c`) files.  
 2. **Unit testing professional workflow** — automated tests using Unity for function correctness.  
@@ -81,7 +81,7 @@ Demo complete.
 
 ## Learning Outcomes
 
-This project will help you understand how liboqs is structured using standard C library design in the context of terminating post-quantum handshakes:
+This project explains at a theoretical level how liboqs is structured using standard C library design in the context of terminating post-quantum handshakes:
 
 - Library creation
 
