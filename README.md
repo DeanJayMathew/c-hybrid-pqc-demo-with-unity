@@ -83,7 +83,7 @@ Demo complete.
 
 Learning Outcomes
 
-This project is ideal for anyone looking to demonstrate professional C skills with:
+This project will help you understand how liboqs is structured using standard C library design in the context of terminating post-quantum handshakes:
 
 Library creation
 
