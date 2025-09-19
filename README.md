@@ -42,7 +42,7 @@ Compile the library and run unit tests:
 make
 make test
 
-
+--- 
 Expected output:
 
 tests/test_pq.c:27:test_generate_keypair:PASS
@@ -53,7 +53,7 @@ tests/test_pq.c:29:test_hybrid_shared_secret:PASS
 3 Tests 0 Failures 0 Ignored 
 OK
 
-Demo Program
+**Demo Program**
 
 Run the hybrid handshake demo:
 
@@ -73,7 +73,9 @@ Encrypting message 'HELLO PQC' with PQC key: 5970
 
 Demo complete.
 
-Learning Outcomes
+
+
+**Learning Outcomes**
 
 This project will help you understand how liboqs is structured using standard C library design in the context of terminating post-quantum handshakes:
 
@@ -85,9 +87,10 @@ Unit testing with Unity
 
 Simulation of cryptographic functions
 
-Portfolio-ready GitHub presence
+Memory Leak Test with Valgrind
 
-References
+
+**References**
 
 Unity Unit Testing Framework
 
