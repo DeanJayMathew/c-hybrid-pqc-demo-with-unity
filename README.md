@@ -41,7 +41,7 @@ Compile the library and run unit tests:
 ```bash
 make
 make test
-
+```
 --- 
 Expected output:
 
