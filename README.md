@@ -8,6 +8,10 @@ is designed to showcase clean **C project organization**, **unit testing with Un
 
 ## Features
 
+- Memory-safe code: Zero leaks confirmed with Valgrind / AddressSanitizer
+
+<img width="505" height="115" alt="Screenshot 2025-09-20 at 00 29 32" src="https://github.com/user-attachments/assets/397f7851-f28c-4d30-bedd-abc3abe84d49" />
+
 - Modular C library design (`.h` / `.c`)  
 - PQC-inspired keypair generation and encryption simulation  
 - Hybrid classical + PQC handshake demonstration  
