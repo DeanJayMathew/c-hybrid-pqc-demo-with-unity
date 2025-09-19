@@ -23,19 +23,7 @@ is designed to showcase clean **C project organization**, **unit testing with Un
 
 ## Project Structure
 
-
-
-c-hybrid-pqc-demo-with-unity/
-│── include/ # Header files for the library
-│ └── pq.h
-│── src/ # Source files for the library
-│ └── pq.c
-│── tests/ # Unit tests with Unity
-│ └── test_pq.c
-│── demo/ # Demonstration programs
-│ └── hybrid_handshake.c
-│── unity/ # Unity unit testing framework
-│── Makefile # Build and test automation
+<img width="343" height="237" alt="Screenshot 2025-09-20 at 00 31 34" src="https://github.com/user-attachments/assets/c34ed64d-a15c-481a-b507-1764f3197f79" />
 
 
 **Key takeaways for developers and recruiters:**
